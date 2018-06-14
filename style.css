@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+
+html {
+    background: linear-gradient(60deg,#FFA59680 9%,#00E4FF5A 100%), url(Images/paul-earle-39322-unsplash.jpg) no-repeat center fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #FFFFFFED;
+    height: 448px;
+    width: 399px;
+    border-radius: 7px;
+    opacity: 1.0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+#circle {
+    background: url(Images/bwportrait.jpg);
+    background-size: cover;
+    border-radius:50% 50% 50% 50%;
+    width:125px;
+    height:125px;
+    margin: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name {
+
+}
+
+.flex-item {
+    width: 399px;
+}
